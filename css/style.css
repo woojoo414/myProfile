@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans+KR&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+ul, li, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+body {
+  background: #121212;
+  color: #fff; }
+
+#header {
+  width: 20%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 100px 50px;
+  box-sizing: border-box;
+  border-right: 1px solid rgba(33, 33, 33, 0.6); }
+  #header .inner {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative; }
+    #header .inner .swiper-pagination {
+      position: relative; }
+      #header .inner .swiper-pagination li {
+        display: block;
+        margin-bottom: 120px;
+        font: normal 24px/1 "Montserrat", sans-serif; }
+    #header .inner .swiper-pagination-bullet {
+      width: 0;
+      height: 0; }
+    #header .inner .contact {
+      width: 100%;
+      position: absolute;
+      left: 100%;
+      bottom: 0;
+      transform: translateX(-100%);
+      text-align: right; }
+      #header .inner .contact h2 {
+        width: 100%;
+        margin-bottom: 20px;
+        font: normal 18px/1 "Montserrat", sans-serif; }
+      #header .inner .contact p {
+        width: 100%;
+        margin-bottom: 10px;
+        font: normal 14px/1.3 "Montserrat", sans-serif;
+        text-align: right; }
+        #header .inner .contact p:after {
+          content: "";
+          clear: both;
+          display: block; }
+        #header .inner .contact p span {
+          float: left;
+          font: normal 16px/1 "Montserrat", sans-serif;
+          text-align: left; }
+
+main {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 80%;
+  height: 100%; }
+  main .swiper-wrapper {
+    width: 100%;
+    height: 100%; }
+    main .swiper-wrapper .swiper-slide {
+      width: 100%;
+      height: 100%; }
+      main .swiper-wrapper .swiper-slide .inner {
+        width: 1180px;
+        margin: 150px auto; }
+    main .swiper-wrapper .v1 .inner h1 {
+      margin-bottom: 40px;
+      font: bold 24px/1 "Noto Sans KR", sans-serif; }
+    main .swiper-wrapper .v1 .inner .pic {
+      width: 60%;
+      height: 400px;
+      margin-left: 40%;
+      margin-bottom: 80px; }
+      main .swiper-wrapper .v1 .inner .pic img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    main .swiper-wrapper .v1 .inner .txt .wrap::after {
+      content: "";
+      display: block;
+      clear: both; }
+    main .swiper-wrapper .v1 .inner .txt .wrap li {
+      float: left;
+      width: 30%; }
+      main .swiper-wrapper .v1 .inner .txt .wrap li p {
+        width: 100%;
+        margin-bottom: 10px; }
+    main .swiper-wrapper .v2 .inner {
+      display: flex;
+      justify-content: flex-end; }
+      main .swiper-wrapper .v2 .inner .box {
+        width: 30%;
+        height: 100%;
+        margin-left: 3%;
+        border-right: 1px solid rgba(255, 255, 255, 0.1); }
+        main .swiper-wrapper .v2 .inner .box:first-child {
+          margin-left: 0; }
+        main .swiper-wrapper .v2 .inner .box span {
+          display: inline-block;
+          margin-bottom: 60px;
+          padding: 20px 0;
+          position: relative;
+          font: normal 62px/1 "Montserrat", sans-serif; }
+          main .swiper-wrapper .v2 .inner .box span::after {
+            content: "";
+            display: block;
+            width: 40%;
+            height: 1px;
+            transform: translateX(20%);
+            background: #fff;
+            position: absolute;
+            left: 0;
+            top: 100%; }
+        main .swiper-wrapper .v2 .inner .box p {
+          margin-bottom: 200px;
+          font: normal 20px/1 "Montserrat", sans-serif; }
+        main .swiper-wrapper .v2 .inner .box .pic {
+          width: 80%;
+          height: 200px;
+          margin: 0 auto; }
+          main .swiper-wrapper .v2 .inner .box .pic a {
+            display: block;
+            width: 100%;
+            height: 100%; }
+            main .swiper-wrapper .v2 .inner .box .pic a img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              filter: grayscale(10); }
+
+/*# sourceMappingURL=style.css.map */
