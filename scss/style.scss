@@ -48,6 +48,7 @@ body{background:#121212; color:#fff;}
                     float:left;
                     font: normal 16px/1 $en_font;
                     text-align:left;
+                    color:#aaa;
                 }
                 a{
                     color:#fff;
@@ -80,9 +81,9 @@ main{
                 }
                 
                 .pic{
-                    width:60%; height:350px;
+                    width:60%; height:300px;
                     margin-left:40%;
-                    margin-bottom:40px;
+                    margin-bottom:80px;
                     img{
                         width:100%; height:100%;
                         object-fit:cover;
@@ -91,13 +92,13 @@ main{
                 .txt{
                     h2{
                         margin-bottom:20px;
-                        font: bold 20px/1 $kr_font;
+                        font: bold 22px/1 $kr_font;
                     }
                     .wrap{
                         &::after{content:""; display:block; clear:both}
                         li{
                             float:left;
-                            width:33%;
+                            width:50%;
                             margin-bottom:20px; 
                             padding:10px; box-sizing:border-box;
                             @for $i from 4 to 7{
@@ -109,12 +110,13 @@ main{
                             p{
                                 width:100%;
                                 margin-bottom:10px;
-                                font: normal 18px/1 $kr_font;
+                                font: normal 20px/1 $kr_font;
                             }
                             span{
                                 display:block;
                                 width:100%;
                                 font: normal 16px/1.3 $kr_font;
+                                color:#aaa;
                             }
                         }
                     }
@@ -125,7 +127,7 @@ main{
             position:relative;
             
             .inner{
-                margin: 250px auto 100px;
+                margin: 200px auto;
                 display:flex;
                 justify-content:flex-end;
                 position:relative;
